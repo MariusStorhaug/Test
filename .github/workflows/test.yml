@@ -18,3 +18,5 @@ jobs:
     steps:
       - name: Action-Test
         uses: PSModule/GitHub-Script@event
+        with:
+          Prerelease: true
